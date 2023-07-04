@@ -41,14 +41,15 @@
     width: 22rem;
     margin-top: 0.5rem;
     border: none;
-    border-radius: 0.3rem;
+    border-radius: .100rem;
+    outline: none;
 }
 
 .container form .email, .pass1{
     background-color: rgb(235, 231, 231);
 }
 
-.container form .email, .pass1, ::placeholder{
+.container form .email, .pass1{
     padding-left: 0.4rem;
 }
 
@@ -182,15 +183,19 @@
         border-radius: 0.3rem;
     }
 
+    .log1, #account{
+        border: none;
+    }
+
     .container form .email, .pass1{
-        outline: solid rgb(202, 200, 200);
+        outline: .100rem solid rgb(202, 200, 200);
     }
     
     .container form .email, .pass1{
         background-color: white;
     }
     
-    .container form .email, .pass1, ::placeholder{
+    .container form .email, .pass1{
         padding-left: 0.325rem;
         font-size: 1.1rem;
     }
